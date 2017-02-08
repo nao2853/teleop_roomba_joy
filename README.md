@@ -16,6 +16,7 @@
 '$vim CMakeList.txt'  
 target_link_libraries(roomba560_node cereal_port ${catkin_LIBRARIES})を  
 target_link_libraries(roomba560_node /home/USER/catkin_ws/src/cereal_port ${catkin_LIBRARIES})に変更  
+'$catkin build'  
   
 使い方  
 PCにジョイスティックを接続する  
